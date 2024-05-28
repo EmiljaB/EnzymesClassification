@@ -1,0 +1,137 @@
+Application of some simple machine learning algorithm after applying feature selection:
+Algorithms:
+  "SVM"
+  "k-NN"
+  "Decision Tree"
+  "Naive Bayes"
+  "Random Forest"
+  "Logistic Regression"
+
+Classifier: SVM
+[[5 3 3 2 0 1]
+ [1 4 3 1 2 1]
+ [1 1 6 2 1 1]
+ [4 0 8 4 1 0]
+ [5 2 5 0 3 1]
+ [3 4 1 4 2 5]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.26      0.36      0.30        14
+     Isomerases       0.29      0.33      0.31        12
+        Ligases       0.23      0.50      0.32        12
+         Lyases       0.31      0.24      0.27        17
+Oxidoreductases       0.33      0.19      0.24        16
+   Transferases       0.56      0.26      0.36        19
+
+       accuracy                           0.30        90
+      macro avg       0.33      0.31      0.30        90
+   weighted avg       0.34      0.30      0.30        90
+
+==================================================
+Classifier: k-NN
+[[6 5 0 1 1 1]
+ [2 4 4 1 0 1]
+ [3 1 2 3 2 1]
+ [5 2 7 1 2 0]
+ [7 4 3 1 0 1]
+ [7 3 2 3 2 2]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.20      0.43      0.27        14
+     Isomerases       0.21      0.33      0.26        12
+        Ligases       0.11      0.17      0.13        12
+         Lyases       0.10      0.06      0.07        17
+Oxidoreductases       0.00      0.00      0.00        16
+   Transferases       0.33      0.11      0.16        19
+
+       accuracy                           0.17        90
+      macro avg       0.16      0.18      0.15        90
+   weighted avg       0.16      0.17      0.14        90
+
+==================================================
+Classifier: Decision Tree
+[[1 1 4 5 2 1]
+ [1 4 3 1 3 0]
+ [2 1 2 3 2 2]
+ [2 3 4 2 4 2]
+ [3 3 5 4 1 0]
+ [7 4 3 0 4 1]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.06      0.07      0.07        14
+     Isomerases       0.25      0.33      0.29        12
+        Ligases       0.10      0.17      0.12        12
+         Lyases       0.13      0.12      0.12        17
+Oxidoreductases       0.06      0.06      0.06        16
+   Transferases       0.17      0.05      0.08        19
+
+       accuracy                           0.12        90
+      macro avg       0.13      0.13      0.12        90
+   weighted avg       0.13      0.12      0.12        90
+
+==================================================
+Classifier: Naive Bayes
+[[4 2 2 2 3 1]
+ [0 3 3 2 3 1]
+ [2 3 1 2 4 0]
+ [6 2 3 4 2 0]
+ [2 3 4 4 1 2]
+ [1 3 1 7 2 5]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.27      0.29      0.28        14
+     Isomerases       0.19      0.25      0.21        12
+        Ligases       0.07      0.08      0.08        12
+         Lyases       0.19      0.24      0.21        17
+Oxidoreductases       0.07      0.06      0.06        16
+   Transferases       0.56      0.26      0.36        19
+
+       accuracy                           0.20        90
+      macro avg       0.22      0.20      0.20        90
+   weighted avg       0.24      0.20      0.21        90
+
+==================================================
+Classifier: Random Forest
+[[4 5 2 1 1 1]
+ [0 4 3 0 4 1]
+ [0 3 2 3 2 2]
+ [7 2 5 2 0 1]
+ [4 4 2 5 1 0]
+ [3 4 1 5 1 5]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.22      0.29      0.25        14
+     Isomerases       0.18      0.33      0.24        12
+        Ligases       0.13      0.17      0.15        12
+         Lyases       0.12      0.12      0.12        17
+Oxidoreductases       0.11      0.06      0.08        16
+   Transferases       0.50      0.26      0.34        19
+
+       accuracy                           0.20        90
+      macro avg       0.21      0.20      0.20        90
+   weighted avg       0.23      0.20      0.20        90
+
+==================================================
+Classifier: Logistic Regression
+[[2 3 2 2 4 1]
+ [0 5 2 0 4 1]
+ [2 2 1 2 4 1]
+ [3 1 5 5 2 1]
+ [3 1 6 2 2 2]
+ [2 3 2 6 2 4]]
+                 precision    recall  f1-score   support
+
+     Hydrolases       0.17      0.14      0.15        14
+     Isomerases       0.33      0.42      0.37        12
+        Ligases       0.06      0.08      0.07        12
+         Lyases       0.29      0.29      0.29        17
+Oxidoreductases       0.11      0.12      0.12        16
+   Transferases       0.40      0.21      0.28        19
+
+       accuracy                           0.21        90
+      macro avg       0.23      0.21      0.21        90
+   weighted avg       0.24      0.21      0.22        90
+
+==================================================
+
+

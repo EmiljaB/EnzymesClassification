@@ -1,0 +1,56 @@
+C:\Users\user\PycharmProjects\ML_Project\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\ML_Project\FeatureSelection.py
+Feature Importances:
+       feature  importance
+38  Feature 39    0.034371
+39  Feature 40    0.032457
+16  Feature 17    0.029028
+32  Feature 33    0.028423
+14  Feature 15    0.028240
+30  Feature 31    0.028211
+28  Feature 29    0.028138
+4    Feature 5    0.028111
+7    Feature 8    0.026977
+9   Feature 10    0.026926
+20  Feature 21    0.026778
+13  Feature 14    0.026524
+36  Feature 37    0.026380
+11  Feature 12    0.026223
+23  Feature 24    0.025775
+31  Feature 32    0.025659
+27  Feature 28    0.025224
+22  Feature 23    0.025059
+25  Feature 26    0.024890
+12  Feature 13    0.024520
+29  Feature 30    0.024442
+15  Feature 16    0.024404
+33  Feature 34    0.024233
+21  Feature 22    0.024050
+18  Feature 19    0.023743
+1    Feature 2    0.023060
+34  Feature 35    0.023059
+0    Feature 1    0.022969
+24  Feature 25    0.022838
+37  Feature 38    0.022767
+8    Feature 9    0.022746
+2    Feature 3    0.022512
+3    Feature 4    0.022407
+26  Feature 27    0.022218
+10  Feature 11    0.021794
+5    Feature 6    0.021616
+17  Feature 18    0.021500
+19  Feature 20    0.021328
+35  Feature 36    0.020895
+6    Feature 7    0.019508
+Selected Features (RFE):
+Index(['Feature 15', 'Feature 17', 'Feature 19', 'Feature 29', 'Feature 31',
+       'Feature 32', 'Feature 37', 'Feature 38', 'Feature 39', 'Feature 40'],
+      dtype='object')
+Selected Features (LASSO):
+Index(['Feature 1', 'Feature 2', 'Feature 3', 'Feature 5', 'Feature 6',
+       'Feature 7', 'Feature 8', 'Feature 9', 'Feature 10', 'Feature 11',
+       ...
+       'Feature 31', 'Feature 32', 'Feature 33', 'Feature 34', 'Feature 35',
+       'Feature 36', 'Feature 37', 'Feature 38', 'Feature 39', 'Feature 40'],
+      dtype='object', length=208)
+
+Process finished with exit code 0

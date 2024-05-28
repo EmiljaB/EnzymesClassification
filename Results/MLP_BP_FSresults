@@ -1,0 +1,12 @@
+ precision    recall  f1-score   support
+
+     Hydrolases       0.12      0.09      0.11        11
+     Isomerases       0.31      0.56      0.40         9
+        Ligases       0.17      0.29      0.21         7
+         Lyases       0.25      0.30      0.27        10
+Oxidoreductases       0.33      0.20      0.25        10
+   Transferases       0.83      0.38      0.53        13
+
+       accuracy                           0.30        60
+      macro avg       0.34      0.30      0.29        60
+   weighted avg       0.37      0.30      0.31        60
